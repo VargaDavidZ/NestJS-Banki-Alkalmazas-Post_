@@ -89,7 +89,7 @@ export class AppController {
       })
       return
     }
-
+ 
     this.#accounts.push(newAccount)
 
     response.redirect(303, '/newAccountSuccess')
